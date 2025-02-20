@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansa Conquest - Invest with Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(45deg, #2c3e50, #4a2c2c);
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #ffd700;
+        }
+        nav {
+            background: #333;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .content {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .content h2 {
+            color: #ffd700;
+            margin-bottom: 1rem;
+        }
+        .content p {
+            margin-bottom: 1rem;
+        }
+        .content form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .content label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #ffd700;
+        }
+        .content input, .content textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            background: #333;
+            border: 1px solid #ffd700;
+            color: #ffffff;
+            border-radius: 5px;
+        }
+        .content textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        .content button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: #ffd700;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .content button:hover {
+            background: #e6c200;
+        }
+        footer {
+            background: #333;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            width: 100%;
+        }
+        .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #b1b1b1;
+    color: #646464;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mansa Conquest</h1>
+        <p>Building Legacies Through Strategic Investments</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sectors.html">Investment Sectors</a></li>
+            <li><a href="sir.html">Special Inquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <h2>Invest with Us</h2>
+        <p>Join Mansa Conquest in building wealth and legacies. Fill out the form below to inquire about investment opportunities—we’ll reach out to discuss your vision.</p>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="amount">Amount Looking to Invest (USD):</label>
+            <input type="number" id="amount" name="amount" min="0" step="1" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Tell us about your investment goals..." required></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Mansa Conquest LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
